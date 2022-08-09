@@ -2,7 +2,7 @@ import {  HiCode } from "react-icons/hi";
 import img1 from "./img/1.png";
 // import img2 from "./img/2.png";
 // import img3 from "./img/raj.png";
-import { SiJava,SiReact } from "react-icons/si";
+import { SiJava,SiReact,SiMongodb } from "react-icons/si";
 import { CgCPlusPlus } from "react-icons/cg";
 import { DiGit} from "react-icons/di";
 import { TbBrandPython,TbBrandJavascript,TbBrandHtml5,TbBrandCss3,TbBrandNextjs,TbBrandBootstrap} from "react-icons/tb";
@@ -12,7 +12,7 @@ export const Experience =[
     {
         id:1,
         date:"2016",
-        title:"C lang",
+        title:"C language",
         iconsSrc:<HiCode className=" text-slate-200" />,
         pon:"68",
       
@@ -23,7 +23,7 @@ export const Experience =[
     {
         id:2,
         date:"2016",
-        title:"C++ lan",
+        title:"C++ language",
         iconsSrc:<CgCPlusPlus className=" text-slate-200" />,
         location:"india",
         description:"bdsdbfuisvfuiysdvfpud",
@@ -104,12 +104,12 @@ export const Experience =[
     
     {
         id:8,
-        title:"React JS",
+        title:"Mongo DB",
         date:"2016",
-        iconsSrc:<SiReact className=" text-slate-200"/>,
+        iconsSrc:<SiMongodb className=" text-slate-200"/>,
         location:"india",
         description:"bdsdbfuisvfuiysdvfpud",
-        pon:"90"
+        pon:"82"
     }
 ,
     {
