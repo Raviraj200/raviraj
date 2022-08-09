@@ -1,7 +1,7 @@
 import {  HiCode } from "react-icons/hi";
 import img1 from "./img/1.png";
-import img2 from "./img/2.png";
-import img3 from "./img/raj.png";
+// import img2 from "./img/2.png";
+// import img3 from "./img/raj.png";
 import { SiJava,SiReact } from "react-icons/si";
 import { CgCPlusPlus } from "react-icons/cg";
 import { DiGit} from "react-icons/di";
