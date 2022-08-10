@@ -80,7 +80,7 @@ function App() {
 
         {/* navbar.............................................................../.................................. */}
 
-        <nav className=" w-screen d-flex z-50 p-3 fixed inset-x-0 top-2 flex justify-center items-center">
+        <nav className=" w-screen d-flex z-50 py-1 px-3 fixed inset-x-0 pt-sm-1 top-0  flex justify-center items-center">
           <div className=" w-full md:w-auto  bg-navBar p-1.5 rounded-5 flex items-center ">
             <a href="#home" className="text1 fs-3 text-lg text-slate-200 font-medium ml-2 p-3 cursor-pointer text-decoration-none hover: text-white "> Raviraj Singh</a>
             <div className=" hidden md:flex items-center gap-6 ml-6 flex-1">

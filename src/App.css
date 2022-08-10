@@ -35,14 +35,14 @@
 }
 
 .color {
-	background: linear-gradient(125deg, #491606, #690f32, #0f475c, #0f5545,#504f05);
+	background: linear-gradient(125deg, #491606, #2b0815, #073444, #052c23,#504f05);
 	background-size: 400% 400%;
 	-webkit-animation: gradient 5s ease infinite;
 	        animation: gradient 5s ease infinite;
 	
 }
 .colors {
-	background: linear-gradient(120deg, #cf9b8c44, #3f1122e3, #0d3946d0, #0b362cc7,#353508);
+	background: linear-gradient(120deg, #be6d5644, #ac4a6ee3, #1e5566d0, #15614fc7,#50500f);
 	background-size: 400% 400%;
 	-webkit-animation: gradient 5s ease infinite;
 	        animation: gradient 5s ease infinite;
