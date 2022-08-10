@@ -11,7 +11,7 @@ export const Experience =[
 
     {
         id:1,
-        date:"2016",
+        date:"2019",
         title:"C language",
         iconsSrc:<HiCode className=" text-slate-200" />,
         pon:"68",
@@ -22,7 +22,7 @@ export const Experience =[
 
     {
         id:2,
-        date:"2016",
+        date:"2020",
         title:"C++ language",
         iconsSrc:<CgCPlusPlus className=" text-slate-200" />,
         location:"india",
@@ -35,7 +35,7 @@ export const Experience =[
     {
         id:3,
         title:"Java",
-        date:"2016",
+        date:"2020",
         iconsSrc:<SiJava className=" text-slate-200"/>,
         location:"india",
         description:"bdsdbfuisvfuiysdvfpud",
@@ -47,7 +47,7 @@ export const Experience =[
     {
         id:4,
         title:"Python",
-        date:"2016",
+        date:"2021",
         iconsSrc:< TbBrandPython className=" text-slate-50"/>,
         location:"india",
         description:"bdsdbfuisvfuiysdvfpud",
@@ -57,7 +57,7 @@ export const Experience =[
 ,
     {
         id:5,
-        date:"2016",
+        date:"2019",
         title:"HTML",
         iconsSrc:<TbBrandHtml5 className=" text-slate-200"/>,
         location:"india",
@@ -69,7 +69,7 @@ export const Experience =[
 
     {
         id:6,
-        date:"2016",
+        date:"2019",
         title:"CSS",
         iconsSrc:<TbBrandCss3 className=" text-slate-200"/>,
         location:"india",
@@ -80,7 +80,7 @@ export const Experience =[
 ,
     {
         id:7,
-        date:"2016",
+        date:"2019",
         iconsSrc:<TbBrandJavascript className=" text-slate-200"/>,
        
         location:"india",
@@ -93,7 +93,7 @@ export const Experience =[
     {
         id:8,
         title:"React JS",
-        date:"2016",
+        date:"2019",
         iconsSrc:<SiReact className=" text-slate-200"/>,
         location:"india",
         description:"bdsdbfuisvfuiysdvfpud",
@@ -105,7 +105,7 @@ export const Experience =[
     {
         id:8,
         title:"Mongo DB",
-        date:"2016",
+        date:"2020",
         iconsSrc:<SiMongodb className=" text-slate-200"/>,
         location:"india",
         description:"bdsdbfuisvfuiysdvfpud",
@@ -115,7 +115,7 @@ export const Experience =[
     {
         id:9, 
         title:"Next.JS",
-        date:"2016",
+        date:"2020",
         iconsSrc:<TbBrandNextjs className=" text-slate-200"/>,
         location:"india",
         description:"bdsdbfuisvfuiysdvfpud",
@@ -136,7 +136,7 @@ export const Experience =[
     {
         id:11,
         title:"Git",
-        date:"2016",
+        date:"2020",
         iconsSrc:<DiGit className=" text-slate-200"/>,
         location:"india",
         description:"bdsdbfuisvfuiysdvfpud",

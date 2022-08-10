@@ -11,6 +11,8 @@ import D from "./D";
 import Footer from "./Footer";
 import swal from 'sweetalert';
 import Hobby from "./Hobby";
+import Team from "./Team";
+import { GrFormView } from "react-icons/gr";
 
 
 
@@ -102,7 +104,7 @@ function App() {
             <div className=" block md:hidden ml-auto cursor-pointer"
               onClick={() => setIsterval(!isAction)}
             >
-              <HiMenu className=" text-2x1 text-textBase  text-slate-200 w-18 fs-1" />
+              <HiMenu className=" text-2x1 text-textBase  text-slate-200 w-18 fs-1 mr-3" />
             </div>
             {isAction && (
               <div className="p-4 w-275 d-md-none bg-navBar rounded-lg fixed top-20 w-56 right-8 flex flex-col items-center justify-evenly gap-6">
@@ -207,11 +209,11 @@ function App() {
                   >
                     <div>
 
-                      <h3 className="text1" >{n.title}</h3>
+                      <h3 className="text1 mt-2" >{n.title}</h3>
                       <h4>{n.per}</h4>
-                      <p className=" mx-auto" >
-                        {n.description} <br />
-                        date-{n.date}
+                      <p className=" m-1" >
+                        {/* {n.description} <br /> */}
+                        Date-{n.date}
 
                       </p>
                       <h3 className=" text-orange-700">{n.pon}/100</h3>
@@ -248,18 +250,28 @@ function App() {
                   <p className=" text-lg text-textBase font-medium uppercase mt-3 text-gray-300 ">{n.name}
                     {/* {n.name.length>25?`${n.name.slice(0,25)}....`: n.name} */}
                     <p className="text-lg text-gray-300 ">{n.nam}
-                      <span className=" block texr-sm fs-9 text-gray-500">{n.techs}</span>
+                      <span className=" block texr-sm fs-9 text-gray-200">{n.techs}</span>
                     </p>
                   </p>
                   <a href={n.git}>
                     <div className=" mr-4">
-                      <BsGithub className="colors text-textBase text-3xl cursor-pointer  text-gray-300 " />
+                     <BsGithub className="hover:text-slate-100 text-textBase text-3xl cursor-pointer  text-gray-300 " />
                     </div>
                   </a>
+                  
                 </div>
               </div>
             ))}
           </section>
+       
+       
+       {/* team....................................................................................................... */}
+          {/* <Team/> */}
+
+
+
+
+          {/* Hobby...................................................................................................... */}
           <Hobby/>
 
           {/* link.................................................... */}
