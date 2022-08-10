@@ -81,7 +81,7 @@ function App() {
         {/* navbar.............................................................../.................................. */}
 
         <nav className=" w-screen d-flex z-50 py-1 px-3 fixed inset-x-0 pt-sm-1 top-0  flex justify-center items-center">
-          <div className=" w-full md:w-auto  bg-navBar p-1.5 rounded-5 flex items-center ">
+          <div className=" py-0  w-full md:w-auto  bg-navBar p-1.5 rounded-5 flex items-center ">
             <a href="#home" className="text1 fs-3 text-lg text-slate-200 font-medium ml-2 p-3 cursor-pointer text-decoration-none hover: text-white "> Raviraj Singh</a>
             <div className=" hidden md:flex items-center gap-6 ml-6 flex-1">
               <a href="#home" className="home text-decoration-none text-gray-400  text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out active  ">Home</a>
@@ -102,10 +102,10 @@ function App() {
             <div className=" block md:hidden ml-auto cursor-pointer"
               onClick={() => setIsterval(!isAction)}
             >
-              <HiMenu className=" text-2x1 text-textBase  text-slate-200 w-12 fs-1" />
+              <HiMenu className=" text-2x1 text-textBase  text-slate-200 w-18 fs-1" />
             </div>
             {isAction && (
-              <div className="p-4 w-275 d-md-none bg-navBar rounded-lg fixed top-28 right-8 flex flex-col items-center justify-evenly gap-6">
+              <div className="p-4 w-275 d-md-none bg-navBar rounded-lg fixed top-20 w-56 right-8 flex flex-col items-center justify-evenly gap-6">
                 <a href="#home" className="text-decoration-none  text-gray-400   text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out  " onClick={() => setIsterval(false)}>Home</a>
                 <a href="#about" className="text-decoration-none  text-gray-400  text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out " onClick={() => setIsterval(false)}>About</a>
                 <a href="#skill" className="text-decoration-none text-gray-400 text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out " onClick={() => setIsterval(false)}>Skill</a>

@@ -6,8 +6,8 @@ import './App.css';
 function D() {
   return (<>
 
-<div  class="carousel slide top-10  pt-sm-0 -mb-100  w-screen h-screen " data-bs-ride="carousel">
-  <div class="carousel-inner h-screen w-screen ">
+<div  class="carousel slide top-2  pt-sm-0 -mb-100  w-screen h-screen " data-bs-ride="carousel">
+  <div class="carousel-inner h-100 w-100 ">
     <div class="carousel-item w-190 h-full  active">
       {/* <img className=" text-white" src="lo.svg"  alt="..."/> */}
       <Spline scene="https://prod.spline.design/3PXxnS8vIZ1xPZgb/scene.splinecode"></Spline>
