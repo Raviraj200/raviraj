@@ -250,7 +250,7 @@ function App() {
                   <p className=" text-lg text-textBase font-medium uppercase mt-3 text-gray-300 ">{n.name}
                     {/* {n.name.length>25?`${n.name.slice(0,25)}....`: n.name} */}
                     <p className="text-lg text-gray-300 ">{n.nam}
-                      <span className=" block texr-sm fs-9 text-gray-200">{n.techs}</span>
+                      <span className=" block texr-sm fs-9 text-gray-2 00">{n.techs}</span>
                     </p>
                   </p>
                   <a href={n.git}>
