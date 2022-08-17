@@ -112,7 +112,7 @@ function App() {
                 <a href="#about" className="text-decoration-none  text-gray-400  text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out " onClick={() => setIsterval(false)}>About</a>
                 <a href="#skill" className="text-decoration-none text-gray-400 text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out " onClick={() => setIsterval(false)}>Skill</a>
 
-                
+
                 <a href="#projects" className="text-decoration-none text-base text-gray-400  text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out " onClick={() => setIsterval(false)}>Projects</a>
                 <a href="#hobby" className="text-decoration-none text-base text-gray-400  text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out " onClick={() => setIsterval(false)}>Hobbies</a>
 
@@ -181,7 +181,10 @@ function App() {
 
 
             </div>
-            <div className=" position-relative bottom-28 items-center justify-center text-center "><a href="ravi.pdf" download><button type="button" class="color w-60 btn btn-outline-light mb-30 m-2 ">Dowload</button></a>
+            
+        <img src="raj.png" className=" ms-md-5  pb-40 -mt-28 " alt="" />
+
+            <div className=" position-relative bottom-32 items-center justify-center text-center "><a href="ravi.pdf" download><button type="button" class="color w-60 btn btn-outline-light mb-30 m-2 ">Dowload</button></a>
               {/* <button type="button" class=" w-60 btn btn-outline-light mb-30"> Like 112</button> */}
 
             </div>
@@ -199,12 +202,12 @@ function App() {
 
                   <VerticalTimelineElement
                     key={n.id}
-                  
+
                     className="vertical-timeline-element--work  "
                     contentStyle={{ background: 'while-800', color: 'black', textAlign: "center", }}
                     contentArrowStyle={{ borderRight: 'while' }}
                     // date={n.date}
-                    iconStyle= {{ background: 'black', color: 'while' }}
+                    iconStyle={{ background: 'black', color: 'while' }}
                     icon={n.iconsSrc}
                   >
                     <div>
@@ -255,24 +258,24 @@ function App() {
                   </p>
                   <a href={n.git}>
                     <div className=" mr-4">
-                     <BsGithub className="hover:text-slate-100 text-textBase text-3xl cursor-pointer  text-gray-300 " />
+                      <BsGithub className="hover:text-slate-100 text-textBase text-3xl cursor-pointer  text-gray-300 " />
                     </div>
                   </a>
-                  
+
                 </div>
               </div>
             ))}
           </section>
-       
-       
-       {/* team....................................................................................................... */}
+
+
+          {/* team....................................................................................................... */}
           {/* <Team/> */}
 
 
 
 
           {/* Hobby...................................................................................................... */}
-          <Hobby/>
+          <Hobby />
 
           {/* link.................................................... */}
           <h1 className="text1 text-white text-center justify-center border-b-2 pb-3" id="contacts">Contacts</h1>
@@ -318,18 +321,18 @@ function App() {
 
             <a href="#home" className=" cursor-pointer text-white-50 text-decoration-none">copyright 2022-2026 | Made By <span className=" text-white text1">Raviraj Singh</span> with React JS</a>
           </div>
-          
+
 
 
 
 
         </main>
 
-       
-  
+
+
 
       </div>
-     
+
 
 
 
