@@ -210,3 +210,13 @@ export const Hobbe=[
     }
 
 ]
+export const Meets=[
+    {
+        id:0,
+        name:"raviraj singh",
+        lpink:"#",
+        skill:"wed dev",
+        img:"favicon.ico"
+    }
+
+]

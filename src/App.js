@@ -1,4 +1,5 @@
 // import React, { useEffect } from "react";
+import './App.css';
 import { useState } from "react";
 import emailjs from 'emailjs-com';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
@@ -163,9 +164,9 @@ function App() {
             </div>
 
             {/* Contacts box................................................................................................. */}
-            <div className="w-full h-420 flex flex-col items-center justify-center position-relative top-8">
+            <div className="w-full h-420 flex flex-col items-center top-5  justify-center position-relative top-8">
               <p className=" text-lg text-textBase mb-60 text-center text-white">
-                UI/UX Designer
+                 <h1 className='h2' data-text="RAVIRAJ SINGH">RAVIRAJ SINGH</h1>
                 <p className=" text-white-50">Hello Friend, I am <samp className=" text-white">RAVIRAJ SINGH !</samp> i am a qualified <br /> and professional wed developer with 2 years of experience in database <br /> administration and website design strong
                   <br /> creative and analytical skill team player with an eye for detail<p />
 
@@ -181,18 +182,19 @@ function App() {
 
 
             </div>
-            
-        <img src="raj.png" className=" ms-md-5  pb-40 -mt-28 " alt="" />
+
+            {/* <img src="raj.png" className=" text-center align-content-center justify-content-center items-center" alt="" /> */}
 
             <div className=" position-relative bottom-32 items-center justify-center text-center "><a href="ravi.pdf" download><button type="button" class="color w-60 btn btn-outline-light mb-30 m-2 ">Dowload</button></a>
               {/* <button type="button" class=" w-60 btn btn-outline-light mb-30"> Like 112</button> */}
+              {/* <img src="raj.png" className=" justify-items-center lg: justify-center" alt="" /> */}
 
             </div>
           </section>
 
 
           {/* Skills............................................................................... */}
-          <h1 className="text2 text-white text-center justify-center border-b-2  py-3 " id="skill">Skill</h1>
+          <h1 className="text1 text-white text-center justify-center border-b-2  py-3 " id="skill">Skill</h1>
           <section className="w-full flex items-center justify-center mb-60 my-5">
 
             <VerticalTimeline>

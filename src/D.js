@@ -19,7 +19,7 @@ function D() {
       <div class="carousel-inner h-100 w-100 ">
         <div class="carousel-item w-190 h-full  active">
           <img className=" text-white  mt-64 d-md-none" src="lo.svg"  alt="..."/>
-          <Spline id="canvas3d" className=" d-none d-md-block" scene="https://prod.spline.design/2tFzfpVGQ1MQ2TdK/scene.splinecode"></Spline>
+          {/* <Spline id="canvas3d" className=" d-none d-md-block" scene="https://prod.spline.design/2tFzfpVGQ1MQ2TdK/scene.splinecode"></Spline> */}
     
            
         </div>
