@@ -164,9 +164,9 @@ function App() {
             </div>
 
             {/* Contacts box................................................................................................. */}
-            <div className="w-100 w-md-full h-420 flex flex-col items-center top-5  justify-center position-relative top-8">
+            <div className=" h-420 f flex-col items-center top-5  justify-center  top-8">
               <p className=" text-lg text-textBase mb-60 text-center text-white">
-                 <h1 className='h2 ' data-text="RAVIRAJ SINGH">RAVIRAJ SINGH</h1>
+                 <h1 className='h2 d-md-none w-100' data-text="RAVIRAJ SINGH">RAVIRAJ SINGH</h1>
                 <p className=" text-white-50">Hello Friend, I am <samp className="  text-white">RAVIRAJ SINGH !</samp> i am a qualified <br /> and professional wed developer with 2 years of experience in database <br /> administration and website design strong
                   <br /> creative and analytical skill team player with an eye for detail<p />
 
