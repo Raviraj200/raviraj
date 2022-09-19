@@ -83,7 +83,7 @@ function App() {
 
         {/* navbar.............................................................../.................................. */}
 
-        <nav className=" w-screen d-flex z-50 py-1 px-3 fixed inset-x-0 pt-sm-1 top-0  flex justify-center items-center">
+        <nav className=" w-screen d-flex z-50 py-1 px-3 fixed inset-x-0 pt-sm-1 top-2  flex justify-center items-center">
           <div className=" py-0  w-full md:w-auto  bg-navBar p-1.5 rounded-5 flex items-center ">
             <a href="#home" className="text1 fs-3 text-lg text-slate-200 font-medium ml-2 p-3 cursor-pointer text-decoration-none hover: text-white "> Raviraj Singh</a>
             <div className=" hidden md:flex items-center gap-6 ml-6 flex-1">
@@ -185,7 +185,7 @@ function App() {
 
             {/* <img src="raj.png" className=" text-center align-content-center justify-content-center items-center" alt="" /> */}
 
-            <div className=" position-relative bottom-32 items-center justify-center text-center "><a href="ravi.pdf" download><button type="button" class="color w-60 btn btn-outline-light mb-30 m-2 ">Dowload</button></a>
+            <div className=" position-relative bottom-12 items-center justify-center text-center "><a href="ravi.pdf" download><button type="button" class="color w-60 btn btn-outline-light mb-30 m-2 ">Dowload</button></a>
               {/* <button type="button" class=" w-60 btn btn-outline-light mb-30"> Like 112</button> */}
               {/* <img src="raj.png" className=" justify-items-center lg: justify-center" alt="" /> */}
 
