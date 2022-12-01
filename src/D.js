@@ -18,8 +18,8 @@ function D() {
     <div class=" carousel slide -top-16  pt-sm-0 -mb-100  w-screen h-screen " data-bs-ride="carousel">
       <div class="carousel-inner h-100 w-100 ">
         <div class="carousel-item w-190 h-full  active">
-          <img className=" text-white  mt-64 d-md-none" src="lo.svg"  alt="..."/>
-          <Spline id="canvas3d" className=" d-none d-md-block" scene="https://prod.spline.design/2tFzfpVGQ1MQ2TdK/scene.splinecode"></Spline>
+          <img className=" text-white  mt-64 " src="lo.svg"  alt="..."/>
+          {/* <Spline id="canvas3d" className=" d-none d-md-block" scene="https://prod.spline.design/2tFzfpVGQ1MQ2TdK/scene.splinecode"></Spline> */}
 
           {/* <img className=" text-white  mt-64 d-md-block" src="hello.svg"  alt="Hello "/> */}
     

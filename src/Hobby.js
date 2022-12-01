@@ -85,7 +85,7 @@ function Hobby() {
                             <h5 class="card-title  text-white text-center pt-sm-5 pt-4 text1 fs-2 ">Coding</h5>
 
                         </div>
-                    </div>
+                    </div> 
                 </div>
                 <div class="col  bg-transparent">
                     <div class="  bg-transparent">
