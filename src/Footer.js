@@ -22,9 +22,9 @@ function Footer(){
             </div>
             <div className=" text-start pb-3">
             <h1 className="text1">Contacts</h1>
-            <a href=" tel:+918889828271" className="text-decoration-none  text-gray-400 d-flex   text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out  ">< FiPhoneCall className="pb-0.5 pr-1 fs-2"  /> +91-8889828721</a>
+            <a href=" tel:+918889828721" className="text-decoration-none  text-gray-400 d-flex   text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out  ">< FiPhoneCall className="pb-0.5 pr-1 fs-2"  /> +91-8889828721</a>
             <a href="mailto:ravirajji1234@gmail.com" className="text-decoration-none  text-gray-400  d-flex  text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out  "><MdOutlineMail className="pb-0.5 pr-1 fs-2"/>ravirajji1234@gmail.com</a>
-            <a href="https://goo.gl/maps/ChCoxQ23hrXc9Q9Y7" className="text-decoration-none  text-gray-400 d-flex  text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out  "><MdOutlineLocationOn className="pb-0.5 pr-1 fs-2"/>Banda, Madhya Pradesh 470335</a>
+            <a href="https://goo.gl/maps/ChCoxQ23hrXc9Q9Y7" className="text-decoration-none  text-gray-400 d-flex  text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out  "><MdOutlineLocationOn className="pb-0.5 pr-1 fs-2"/>Banda Sagar Madhya Pradesh 470335</a>
             <a href="#" className="text-decoration-none  text-gray-400   text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out  "> </a><br/>
             <a href="#" className="text-decoration-none  text-gray-400   text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out  "> </a>
 

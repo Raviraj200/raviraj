@@ -157,9 +157,9 @@ function App() {
 
 
             {/* img box..................................................................................... */}
-            <div className=" w-full h-420 flex items-center justify-center">
-              <div className="color  w-275  h-340  rounded-md relative">
-                <img className="w-full h-full absolute -right-4 left-4 top-4 object-cover rounded-lg  shadow-lg" src={Vetri} alt="" />
+            <div className=" w-full h-full flex items-center justify-center ">
+              <div className="color  w-275  h-340  rounded-md relative  ">
+                <img className="w-full h-full absolute  left-0 top-0 object-cover rounded-lg  shadow-lg" src={Vetri} alt="" />
               </div>
             </div>
 
