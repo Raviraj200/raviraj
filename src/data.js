@@ -1,5 +1,6 @@
 import {  HiCode } from "react-icons/hi";
-import img1 from "./img/1.png";
+import img1 from "./img/1.jpg";
+import ecom from "./img/ecom.png"
 // import img2 from "./img/2.png";
 // import img3 from "./img/raj.png";
 import { SiJava,SiReact,SiMongodb } from "react-icons/si";
@@ -152,10 +153,10 @@ export const Experience =[
 export const Projects=[
     {
         id:1,
-        name:"Coming Soon",
-        img:img1,
+        name:"E-com website",
+        img:ecom,
         techs :"React js",
-        git:"#",
+        git:"https://goodup-ecom.vercel.app/",
     
     },
     
